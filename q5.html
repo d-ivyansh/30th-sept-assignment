@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            border: 1px solid;
+            background-color: aqua;
+            width: fit-content;
+            padding: 2%;
+            position: absolute;
+        }
+        .box{
+              z-index: 2; /*  but here the z index is given so it will push a to front */
+        }
+    </style>
+</head>
+<body>
+    <!-- z index is the z coordinate of the page it allows the overlapping of the elements -->
+    <div class="box">A</div>
+    <div class="box2">B</div>
+    <!-- if there is no z index b will overlap a -->
+</body>
+</html>

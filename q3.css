@@ -1,0 +1,15 @@
+body{
+    border: 2px solid;
+}
+div{
+    padding: 2%;
+    background-color: blanchedalmond;
+    display: flow-root;
+
+}
+.para {
+    padding-right: 30%;
+}
+.image{
+    float: right;
+}
